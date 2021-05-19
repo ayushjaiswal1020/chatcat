@@ -5,8 +5,7 @@ from pyrogram import Client, filters
 
 from datetime import datetime
 
-from pyUltroid.functions.asst_fns import *
-from pyUltroid.misc._decorators import sed
+
 from telethon import Button, events
 from telethon.utils import get_display_name
 
