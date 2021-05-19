@@ -1,0 +1,47 @@
+{
+    "name": "Chatcat Bot",
+    "description": "Make short link by using Earnspaces API key",
+    "keywords": [
+        "telegram",
+        "Chat Bot"
+    ],
+    "website": "https://github.com/ayushjaiswal1020/chatcat",
+    "repository": "https://github.com/ayushjaiswal1020/chatcat",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": ""
+            "required": True
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+            "required": True
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+            "required": True
+        },
+        "OWNER_ID": {
+            "description": "Get API key from https://earnspaces.com/member/tools/api",
+            "required": false
+        },
+        "OWNER_ID": {
+            "description": "Get API key from https://earnspaces.com/member/tools/api",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
