@@ -1,0 +1,10 @@
+-r requirements.txt
+black
+isort
+pre-commit
+pyclean
+pylint
+
+pyrogram
+tgcrypto
+aiohttp==3.7.4
